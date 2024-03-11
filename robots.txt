@@ -1,0 +1,6 @@
+# BEEP BOOP BLOOP INVADERS MUST DIE
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ffaaee.art/sitemap.xml
