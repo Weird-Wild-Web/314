@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background: rgba(227, 235, 250, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
+  border: 1px solid rgba(227, 235, 250, 0.3);
+  width: fit-content;
+  height: fit-content;
+  padding: 15px 35px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #6b8db3;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.text {
+  font-size: 16px;
+}
